@@ -1,0 +1,17 @@
+{
+  "name": "learn-gulp-file-include1",
+  "version": "1.0.0",
+  "description": "learn-gulp-file-include",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  },
+  "dependencies": {
+    "gulp-file-include": "^2.1.0"
+  }
+}
