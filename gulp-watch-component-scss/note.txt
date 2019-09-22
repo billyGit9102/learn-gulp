@@ -1,0 +1,19 @@
+component watch this files
+'./src/**/*.scss'
+
+
+install gulp-sass
+npm install --save-dev gulp-sass;
+
+
+install node-sass
+npm install --save-dev node-sass;
+
+
+install autoprefixer
+npm i --save-dev autoprefixer;
+
+
+install gulp-postcss
+const postcss = require("gulp-postcss");
+npm i --save-dev gulp-postcss;

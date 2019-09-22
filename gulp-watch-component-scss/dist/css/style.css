@@ -1,0 +1,27 @@
+.part {
+  display: grid;
+  -webkit-transition: all 432s;
+  transition: all 432s;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background: -webkit-gradient(linear, left top, left bottom, from(white), to(black));
+  background: linear-gradient(to bottom, white, black); }
+
+#navigation {
+  background-color: blue;
+  font-size: 14px; }
+
+.example {
+  display: grid;
+  -webkit-transition: all 1234s;
+  transition: all 1234s;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background: -webkit-gradient(linear, left top, left bottom, from(white), to(black));
+  background: linear-gradient(to bottom, white, black); }
+  .example .a {
+    font-size: 15px; }
