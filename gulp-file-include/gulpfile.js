@@ -5,9 +5,9 @@ function defaultTask(cb) {
     // place code for your default task here
     cb();
 }
-function c(cb) {
+function compileHtml(cb) {
     // place code for your default task here
-    console.log("start c")
+    console.log("start watchHtml")
     src(['./src/html/index.html'])
     .pipe(fileinclude({
       prefix: '@@',
@@ -17,5 +17,9 @@ function c(cb) {
 
      cb();
 }
+function watchSrc(){
+  watch(['./src/html/**/*.html'], compileHtml)
+}
 exports.default = defaultTask;
-exports.c=c;
+exports.watchSrc=watchSrc;
+exports.compileHtml=compileHtml;
