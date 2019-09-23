@@ -15,7 +15,7 @@ function compileHtml(cb) {
     }))
     .pipe(dest('./'));
 
-     cb();
+    cb();
 }
 function watchSrc(){
   watch(['./src/html/**/*.html'], compileHtml)
