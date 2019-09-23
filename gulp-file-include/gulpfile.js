@@ -6,7 +6,6 @@ function defaultTask(cb) {
     cb();
 }
 function compileHtml(cb) {
-    // place code for your default task here
     console.log("start watchHtml")
     src(['./src/html/index.html'])
     .pipe(fileinclude({
@@ -14,7 +13,6 @@ function compileHtml(cb) {
       basepath: '@file'
     }))
     .pipe(dest('./'));
-
     cb();
 }
 function watchSrc(){
